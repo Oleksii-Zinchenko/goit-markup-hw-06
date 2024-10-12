@@ -23,6 +23,7 @@ img {
 
 body {
   font-family: 'Roboto', sans-serif;
+  font-style: normal;
   color: #434455;
   background-color: #fff;
 }
@@ -311,6 +312,7 @@ button {
 }
 
 .div-address {
+  font-style: normal;
   margin-bottom: 48px;
 }
 .menu-mobile-contacts-list {
@@ -480,7 +482,7 @@ button {
 .benefits-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 72px;
 }
 
 .benefits-item {
@@ -591,7 +593,7 @@ button {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 72px;
 }
 
 .team-name {
@@ -792,6 +794,7 @@ button {
 /* ===Page Footer=== */
 
 .page-footer {
+  padding: 96px 0;
   background-color: #2e2f42;
 }
 
@@ -801,8 +804,10 @@ button {
   text-align: center;
   flex-wrap: wrap;
   min-width: 320px;
-  padding: 96px 0;
-  row-gap: 72px;
+}
+
+.footer-container {
+  margin-bottom: 72px;
 }
 
 .footer-logo {
@@ -821,6 +826,10 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+
+.container-social {
+  margin-bottom: 72px;
 }
 
 .footer-social-text {
@@ -922,17 +931,26 @@ button {
 }
 
 @media screen and (min-width: 1158px) {
+  .page-footer {
+    padding: 100px 0;
+  }
+
   .footer-div {
     min-width: 1158px;
-    padding: 100px 0;
+    padding: 0;
     gap: 0;
   }
   .footer-container {
     margin-right: 120px;
+    margin-bottom: 0;
   }
 
   .container-social {
-    margin-right: 46px;
+    margin-bottom: 0;
+  }
+
+  .container-subscribe {
+    margin-left: auto;
   }
 }
 
@@ -965,7 +983,7 @@ button {
   max-width: 288px;
   min-height: 623px;
   overflow: auto;
-  padding: 72px 24px 24px 24px;
+  padding: 72px 16px 24px 16px;
   border-radius: 4px;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
     0 2px 1px 0 rgba(0, 0, 0, 0.2);
